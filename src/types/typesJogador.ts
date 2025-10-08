@@ -9,7 +9,7 @@ export interface Jogador {
     apelido?: string;
     numeroCamisa: string;
     posicao: Posicao;
-    dataNascimento: Date;
+    dataNascimento: string;
     naturalidade: string;
     nacionalidade: string;
     altura: number;
