@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory, type RouteRecordRaw } from 'vue-router'
 
 import HomeView from '@/views/HomeView.vue';
+import JogadorView from '@/views/JogadorView.vue';
+
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -8,6 +10,16 @@ const routes: Array<RouteRecordRaw> = [
     name: 'home',
     component: HomeView
   },
+  {
+    path: '/jogador',
+    children: [
+      {
+        path: '',
+        name: 'jogador',
+        component: JogadorView 
+      }
+    ]
+  }
 ];
 
 const router = createRouter({

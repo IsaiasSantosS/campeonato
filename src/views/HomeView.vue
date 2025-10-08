@@ -1,6 +1,7 @@
-<script setup lang="ts">
-</script>
+<template> 
 
-<template>
-    <h2>Aqui</h2>
-</template>
+ </template>
+
+<script setup lang="ts">
+
+</script>
